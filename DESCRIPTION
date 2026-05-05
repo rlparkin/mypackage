@@ -1,14 +1,18 @@
 Package: mypackage
-Title: What the Package Does (One Line, Title Case)
+Title: Customised greetings from me
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Rosie", "Parkin", , "rlparkin1@sheffield.ac.uk", role = c("aut", "cre"))
+Description: Prints a customised greeting from myself, delivered by a friend.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.3
 URL: https://github.com/rlparkin/mypackage
 BugReports: https://github.com/rlparkin/mypackage/issues
+Imports: 
+    cowsay
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Date: 2026-05-05

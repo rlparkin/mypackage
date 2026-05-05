@@ -3,3 +3,9 @@
 ^mypackage\.Rcheck$
 ^mypackage.*\.tar\.gz$
 ^mypackage.*\.tgz$
+^LICENSE\.md$
+^README\.Rmd$
+^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

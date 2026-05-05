@@ -4,3 +4,7 @@
 .httr-oauth
 .DS_Store
 .quarto
+mypackage.Rcheck/
+mypackage*.tar.gz
+mypackage*.tgz
+docs
